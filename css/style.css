@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.container{
+    box-shadow: 5px 5px 10px  rgba(70, 70, 70, 0.712);
+    display: block;
+    max-width: 600px;
+    height: auto;
+    margin: 2rem auto;
+    border: 2px solid #000;
+}
+
+img{
+    width: 600px;
+}
+
+#name-text{
+    line-height: 20px;
+    text-align: left;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #000;
+}
+
+#name{
+    font-size: 2rem;
+    color: rgb(16, 17, 17);;
+    padding: 0 10px;
+
+}
+
+#button{
+    display: block;
+    margin: 1rem  auto;
+    color: #000;
+    border: none;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+#button:hover{
+    color: #fff;
+    background-color: red
+}
+
+/*.gender-text{
+    font-size: 1.3rem;
+    font-weight: 500;
+}*/
+
+option{
+    width: 100%;
+
+}
+
+.gender-text{
+    font-size: 16px;
+    
+}
+
+
+.opt{
+    width: 80%;
+    padding:0 0 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+select{
+    outline: none;
+}
+
+
+#price{
+    padding: 0 0 0  10px;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        max-width: 280px;
+    }
+    img{
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+}
